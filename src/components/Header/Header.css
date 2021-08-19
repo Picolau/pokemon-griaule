@@ -1,0 +1,18 @@
+.Menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #282c34;
+    height: 50px;
+    width: 100vw;
+    box-shadow: 0px 0px 5px 1px white;
+}
+
+.MenuItems {
+    display: flex;
+    gap: 50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    align-items: center;
+}

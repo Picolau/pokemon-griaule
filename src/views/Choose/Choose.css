@@ -1,0 +1,66 @@
+.Main {
+  text-align: center;
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  margin-top: 50px;
+}
+
+.ChooseArea {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  margin-top: 50px;
+}
+
+.Separator {
+  width: 2px;
+  background-color: rgba(255,255,255,0.8);
+  box-shadow: 0px 0px 9px 0.5px white;
+  height: 100vh;
+  align-items: center;
+}
+
+.FloatingDragDropWrapper {
+  position: absolute;
+  cursor: grabbing;
+  opacity: 0.5;
+}
+
+.DragDropWrapper {
+  cursor: pointer;
+}
+
+.DragDropWrapper:hover {
+  box-shadow: 0px 0px 5px 1px white;
+  border-radius: 10px;
+}
+
+.LeftArea {
+  height: 100%;
+  width: 48vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:center;
+}
+
+.RightArea {
+  height: 100%;
+  width: 48vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:center;
+}
+
+img {
+  pointer-events: none;
+}

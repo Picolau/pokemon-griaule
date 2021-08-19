@@ -1,0 +1,39 @@
+.Main {
+  text-align: center;
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  margin-top: 50px;
+}
+
+.Clickable {
+  cursor: pointer;
+}
+
+.Footer {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  margin: 30px;
+}
+
+.Clickable:hover{
+  text-shadow: 0px 0px 1px white;
+}
+
+.CardsWrapper {
+  margin-left: 10%;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.CardsWrapper div {
+  flex-basis: 25%;
+  min-width: 250px;
+}
