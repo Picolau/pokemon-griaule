@@ -7,7 +7,7 @@ class Choose extends Component {
     super(props)
     this.dragRef = React.createRef()
     this.state = {
-      message: 'Escolha seus pokemóns os movendo da esqueda para a direita',
+      message: 'Escolha seus pokemóns os movendo da esquerda para a direita',
       left: [
         <PokemonCard key={1} url='https://pokeapi.co/api/v2/pokemon/1/' name='Bulbasaur' />,
         <PokemonCard key={2} url='https://pokeapi.co/api/v2/pokemon/4/' name='Charmander' />,
